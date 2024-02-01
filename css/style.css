@@ -1,0 +1,44 @@
+.navigation-grocery {
+    border-bottom: 3px solid #c7bebe;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation-grocery>div {
+    text-align: center;
+    font-size: medium;
+    color: #000000;
+    border: 2px solid;
+    background-color: white;
+    width: 90px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.content {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.content>div {
+    display: flex;
+}
+
+.footer {
+    border: 10px black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    
+}
+
